@@ -1,0 +1,28 @@
+*::after
+*::before
+*{
+
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+ 
+    body{                    
+        margin: auto;
+        max-width: 1200px;
+        font-family: 'lato';
+        color: black;
+    }
+ 
+    .icont-cart{
+        width: 40px;
+        height: 40px; 
+    }
+
+    img{
+        max-width: 100;
+    }
+header{
+    display: flex;
+    justify-content:space-between ;
+}
